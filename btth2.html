@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .white-box {
+            background-color: white; /* Nền trắng */
+            width: 90%;             /* Chiều rộng chiếm 90% màn hình thiết bị (cho linh hoạt) */
+            max-width: 450px;       /* Chiều rộng tối đa (để không bị quá to trên máy tính) */
+            padding: 30px;          /* Khoảng cách từ nội dung đến viền */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hiệu ứng đổ bóng nhẹ  */
+            margin: 20px auto;
+        }
+            
+            
+        </style>
+    </head>
+    <body style="background-color: rgb(105, 216, 140);">
+        <h2 style="text-align: center;">BIỂU MẪU KHẢO SÁT ITviec</h2>
+        <div class="white-box">
+          <form>
+           <label for="name">Họ tên</label><br>
+            <input type="text" id="name" placeholder="Nhập tên của bạn"><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Nhập email của bạn"><br>
+            
+            <label for="tuoi">Tuổi</label><br>
+            <input type="text" id="tuoi" placeholder="Nhập tuổi"><br>
+
+            <label for="sv">Hiện tại bạn đang là?</label><br>
+            <select id="sv" name="Học sinh/ sinh viên">
+                <option value="sinh vien">Sinh viên</option>
+                <option value="hoc sinh">Học sinh </option>
+            </select>
+
+          </form>
+        </div>
+    </body>
+</html>
